@@ -17,7 +17,7 @@ def app():
     st.subheader("👨🏻‍💻 What our Project Does?")
 
     what_it_does = '''
-    Our deepfake detection tool utilizes the power of Deep Learning to distinguish Real images from the Fake ones. For instance, if someone takes your original image and inserts your face into a murder scene or photoshops it onto someone else's body, Deforgify will tag it as fake reducing the chances of it being used to smear you. <br>
+    Our deepfake detection tool utilizes the power of Deep Learning to distinguish Real images from the Fake ones. For instance, if someone takes your original image and inserts your face into a murder scene or photoshops it onto someone else's body, the model will tag it as fake reducing the chances of it being used to smear you. <br>
     Simply submit the image, and the machine learning model will evaluate it and provide a response in a fraction of a second.'''
 
     st.markdown(what_it_does, unsafe_allow_html=True)
