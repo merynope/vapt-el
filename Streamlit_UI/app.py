@@ -12,7 +12,7 @@ PAGES = {
     "Classify Image": classifyPage
 }
 
-st.sidebar.title("VAPT - Experential Learning")
+st.sidebar.title("AIML Lab Part B - Experential Learning")
 
 st.sidebar.write("Created by - Meryn, Nivedita, Tanisha")
 
