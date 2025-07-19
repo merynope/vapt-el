@@ -3,7 +3,7 @@ import dashboard
 import classifyPage
 
 st.set_page_config(
-    page_title="VAPT",
+    page_title="Ethical Hacking EL",
     page_icon="🤖",
     layout="wide")
 
@@ -12,9 +12,9 @@ PAGES = {
     "Classify Image": classifyPage
 }
 
-st.sidebar.title("AIML Lab Part B - Experential Learning")
+st.sidebar.title("Ethical Hacking Lab Part B - Experential Learning")
 
-st.sidebar.write("Created by - Meryn, Nivedita, Tanisha")
+st.sidebar.write("Created by - Meryn, Nivedita")
 
 st.sidebar.subheader('Navigation:')
 selection = st.sidebar.radio("", list(PAGES.keys()))
