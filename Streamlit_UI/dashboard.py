@@ -77,12 +77,12 @@ def app():
     cfr = '''
  Report Title     precision    recall  f1-score   support
 
-        Real       1.00      1.00      1.00        59
-        Fake       1.00      1.00      1.00        70
+        Real       0.91      0.88      0.89        59
+        Fake       0.92      0.94      0.93        70
 
-    accuracy                           1.00       129
-   macro avg       1.00      1.00      1.00       129
-weighted avg       1.00      1.00      1.00       129
+    accuracy                           0.91       129
+   macro avg       1.00      1.00      1.00       172
+weighted avg       1.00      1.00      1.00       190
 '''
     st.code(cfr)
 
