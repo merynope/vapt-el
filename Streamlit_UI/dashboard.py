@@ -28,9 +28,9 @@ def app():
 
     stats.markdown("<h5> 📊 Getting the Data and EDA Process </h5>", unsafe_allow_html=True)
 
-    stats.markdown("*The dataset was taken from Kaggle and you can find it [here](https://www.kaggle.com/hamzaboulahia/hardfakevsrealfaces).*")
+    stats.markdown("*The dataset was taken FaceForensics++, Celeb-DF and Deepfake Detection Challenge (DFDC).*")
 
-    stats.markdown('''The Dataset contains 1288 faces out of which
+    stats.markdown('''The Dataset contains 6000 faces out of which
     <li> 3000 are Real </li> 
     <li> 3000 are Fake </li>
     ''', unsafe_allow_html=True) 
