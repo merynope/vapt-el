@@ -31,11 +31,11 @@ def app():
     stats.markdown("*The dataset was taken from Kaggle and you can find it [here](https://www.kaggle.com/hamzaboulahia/hardfakevsrealfaces).*")
 
     stats.markdown('''The Dataset contains 1288 faces out of which
-    <li> 589 are Real </li> 
-    <li> 700 are Fake </li>
+    <li> 3000 are Real </li> 
+    <li> 3000 are Fake </li>
     ''', unsafe_allow_html=True) 
 
-    fig = px.bar(x=['Real', 'Fake'], y=[589, 700], height=400)
+    fig = px.bar(x=['Real', 'Fake'], y=[3000, 3000], height=400)
     graph.plotly_chart(fig, use_container_width=True)
 
     st.write('The "fake" faces collected in this dataset are generated using the StyleGAN2, which present a harder challenge to classify them correctly even for the human eye.')
