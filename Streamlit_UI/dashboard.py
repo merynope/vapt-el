@@ -75,14 +75,10 @@ def app():
     st.write("Classification Report:")
     
     cfr = '''
- Report Title     precision    recall  f1-score   support
+ Report Title     precision    recall  f1-score   accuracy
 
-        Real       0.91      0.88      0.89        59
-        Fake       0.92      0.94      0.93        70
+                   0.913      0.933      0.923        0.93
 
-    accuracy                           0.91       129
-   macro avg       1.00      1.00      1.00       172
-weighted avg       1.00      1.00      1.00       190
 '''
     st.code(cfr)
 
